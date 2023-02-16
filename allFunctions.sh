@@ -283,7 +283,7 @@ function deleteMenu() {
         --title="[$2] Delete Menu" \
         --column="Option" \
         "Truncate All Data Of [$2]" \
-        "Delete Data Of Record")
+        "Delete Record Of Data")
 
     case $choice in
     "Truncate All Data Of [$2]") . ./tableMenu/deleteMenu/deleteAllData.sh $1 $2 ;;
